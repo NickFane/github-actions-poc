@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="2.5">
+    <id>NickFane.PetApi.Contracts</id>
+    <version>1.0.0</version>
+    <authors>nickfane</authors>
+    <owners>nickfane</owners>
+    <projectUrl>https://github.com/NickFane/github-actions-poc</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Pet API contracts for github actions PoC</description>
+    <releaseNotes>Initial Release</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>nickfane</tags>
+    <dependencies>
+      <!-- <dependency id="SampleDependency" version="1.0" /> -->
+    </dependencies>
+  </metadata>
+  <files>
+      <file src="./bin/Release/netstandard2.0/*.*" target="" />
+  </files>
+</package>

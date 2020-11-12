@@ -23,3 +23,7 @@ jobs:
       run: dotnet build --configuration Release --no-restore
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+    - name: NuGet Pack
+      run: nuget pack ./src/PetApi.Contracts/PetApi.Contracts.nuspec -Version 1.$GITHUB_RUN_NUMBER.0
+    - name: NuGet Publish
+      run: dotnet nuget push NickFane.PetApi.Contracts.1.$GITHUB_RUN_NUMBER.0.nupkg --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
