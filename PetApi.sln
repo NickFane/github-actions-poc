@@ -8,7 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PetApi.Contracts", "src\Pet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetApi.Application", "src\PetApi.Application\PetApi.Application.csproj", "{96C2C6E6-C37E-4E45-A5B5-2AB9AB52F269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetApi.Persistence", "PetApi.Persistence\PetApi.Persistence.csproj", "{43025F58-740D-4C40-AED7-863FFD946682}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetApi.Persistence", "src\PetApi.Persistence\PetApi.Persistence.csproj", "{43025F58-740D-4C40-AED7-863FFD946682}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
