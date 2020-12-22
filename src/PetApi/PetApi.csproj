@@ -21,5 +21,6 @@
     <ProjectReference Include="..\PetApi.Contracts\PetApi.Contracts.csproj">
       <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
     </ProjectReference>
+    <ProjectReference Include="..\PetApi.Persistence\PetApi.Persistence.csproj" />
   </ItemGroup>
 </Project>

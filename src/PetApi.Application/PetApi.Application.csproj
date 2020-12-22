@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\PetApi.Persistence\PetApi.Persistence.csproj" />
     <ProjectReference Include="..\PetApi.Contracts\PetApi.Contracts.csproj" />
+    <ProjectReference Include="..\PetApi.Persistence\PetApi.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

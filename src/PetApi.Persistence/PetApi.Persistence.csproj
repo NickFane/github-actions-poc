@@ -4,4 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PetApi.Contracts\PetApi.Contracts.csproj" />
+  </ItemGroup>
+
 </Project>
